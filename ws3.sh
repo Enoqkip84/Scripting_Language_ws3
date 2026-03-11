@@ -1,14 +1,19 @@
 #!/bin/bash
 
-let result=$1+$2
+acccode=1234
+read -p 'What is your access code?: ' usrcde
 
-echo "The sum of $1 and $2 is $result"
+if [ $user = 'root' ]; then
 
-if [$x -eq $y]; then
-#code executes
+   echo "Access granted - full privileges"
+elif [ $usrcde=$acccode ]; then
+
+echo "Access granted - limited privileges"
 
 else
-#code executes
+
+echo "Access denied"
+      exit 1
 
 fi
 
