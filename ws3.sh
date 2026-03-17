@@ -19,20 +19,27 @@
 # exit 0
 
 #==================================================
-#Exercise 2
+#Exercise 2 - if -else elif fi
 #==================================================
 
 #!/bin/bash
-read -p "Please enter an integer between 30 and 40 inclusive: " int
+# read -p "Please enter an integer between 30 and 40 inclusive: " int
 
-if [[ $int -ge 30 ]] && [[ $int -le 40 ]]; then
+# if [[ $int -ge 30 ]] && [[ $int -le 40 ]]; then
 
-    echo "$int is a valid selection"
+#     echo "$int is a valid selection"
 
-else
-    echo "$int is not a valid selection"
+# else
+#     echo "$int is not a valid selection"
 
-fi
+# fi
 
-exit 0
+# exit 0
 
+#==================================================
+#Exercise 2 - The Case Statement
+#==================================================
+
+#!/bin/bash
+
+echo -e 
